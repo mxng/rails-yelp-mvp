@@ -1,4 +1,6 @@
-<h1><%= @restaurant.name %></h1>
+<%= render @restaurant %>
+
+<%= render @reviews %>
 
 <%= link_to 'Edit', edit_restaurant_path(@restaurant) %> |
 <%= link_to 'Back', restaurants_path %> |
